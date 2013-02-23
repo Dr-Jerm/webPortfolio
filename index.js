@@ -7,7 +7,7 @@ populatePortfolio = function(){
         var element = '<div class="imgholder"><img src="images/'+ vid.videoImage +'" alt="" /></div>'+
           '<p class="title">'+ vid.title +'</p>'+
           '<p class="projectdescription">'+ vid.description +'</p>'+
-          '<p class="readmore"><a href="#"><strong>View The Full Project &raquo;</strong></a></p>'
+          '<p class="readmore"><a target="_blank" href="http://www.youtube.com/watch?v='+ vid.youtubeCode  +'"><strong>View The Full Project &raquo;</strong></a></p>'
         $('#portList').append(element);
     }
 }
