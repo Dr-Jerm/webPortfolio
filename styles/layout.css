@@ -66,7 +66,9 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 .col2{color:#666666; background-color:#202020;}
 .col3{color:#989898; background:url("../images/featured_slide.gif") top left repeat-x #FAFAFA;}
 .col4{color:#989898; background-color:#FAFAFA;}
-
+.footer{
+	color:#333333;
+}
 /* ----------------------------------------------Generalise-------------------------------------*/
 
 #topbar, #header, #featured_slide, #container, #footer, #backtotop, #copyright{
@@ -409,7 +411,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	font-style:italic;
 	font-size:30px;
 	line-height:normal;
-	color:#B86365;
+	color:#F28C38;
 	background-color:#333333;
 	}
 
@@ -425,7 +427,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 
 #footer .fl_left{
 	display:block;
-	width:500px;
+	width:400px;
 	}
 
 #footer #contact .fl_left, #footer #contact .fl_right{
@@ -445,7 +447,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 
 #footer .fl_right{
 	display:block;
-	width:400px;
+	width:500px;
 	}
 
 #footer .fl_right .fl_right{

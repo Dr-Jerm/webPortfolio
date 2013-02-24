@@ -10,4 +10,7 @@ populatePortfolio = function(){
           '<p class="readmore"><a target="_blank" href="http://www.youtube.com/watch?v='+ vid.youtubeCode  +'"><strong>View The Full Project &raquo;</strong></a></p>'
         $('#portList').append(element);
     }
+
+//    var bioText = '<p>' + bio.description + '</p>';
+//    $('#about_me_div').append(bioText);
 }
